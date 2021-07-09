@@ -1,13 +1,13 @@
 package entities;
 
-public class Departament {
+public class Department {
 	
 	private String name;
 	
-	public Departament() {	//Construtor Vazio	
+	public Department() {	//Construtor Vazio	
 	}
 
-	public Departament(String name) { //Construtor com parametros		
+	public Department(String name) { //Construtor com parametros		
 		this.name = name;
 	}
 
@@ -18,11 +18,9 @@ public class Departament {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
-	
-	
-	
-	
-	
-
 }
+	
+	
+	
+	
+	
